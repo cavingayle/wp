@@ -7,17 +7,18 @@ export default function App() {
   const wave = () => {
     
   }
-  
+  const emoji = '💎'
   return (
+    
     <div className="mainContainer">
 
       <div className="dataContainer">
         <div className="header">
-        👋 Hey there!
+        {emoji} Yoo!
         </div>
 
         <div className="bio">
-        I am farza and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
+        I'm Cavin and Im planning on transitioning into blockchain developemnt! Lets gooo baby!!!!!
         </div>
 
         <button className="waveButton" onClick={wave}>
